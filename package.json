@@ -1,0 +1,15 @@
+{
+  "name": "tiktok-live-notifier",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "2",
+    "playwright": "^1.46.0"
+  }
+}
